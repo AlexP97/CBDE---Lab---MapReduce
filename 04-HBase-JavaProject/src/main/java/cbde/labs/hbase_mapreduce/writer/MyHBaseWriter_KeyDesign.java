@@ -13,5 +13,4 @@ public class MyHBaseWriter_KeyDesign extends MyHBaseWriter {
 		}
 		return new_key;
 	}
-		
 }

@@ -3,11 +3,11 @@ package cbde.labs.hbase_mapreduce.reader;
 public class MyHBaseReader_KeyDesign extends MyHBaseReader {
 
 	protected String scanStart() {
-		return "0";
+		return "type_3-0-0";
 	}
 	
 	protected String scanStop() {
-		return "a0";
+		return "type_3-1-0";
 	}
 		
 }
